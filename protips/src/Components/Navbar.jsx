@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="nav">
 
         <Link style={{color:"white", textDecoration:"none"}} to={"/contact"}>Contact</Link>
-        <Link style={{color:"white", textDecoration:"none"}} to={"/about"}>Registration Form</Link>
+        <Link style={{color:"white", textDecoration:"none"}} to={"/register"}>Registration Form</Link>
         </div>
     </div>
   )
