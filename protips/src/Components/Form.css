@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.contain{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width:400px ;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.587);
+    background-color: #bae8e8;
+  }
+  
+  label {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    
+    background-color: #0056b3;
+  }
+  
+  .alert {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .registration-success {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 10px;
+  }
+  
+  
